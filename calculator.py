@@ -7,13 +7,13 @@ def Calculater():
     multiply = float(x) * float(y)
     divide = float(x) / float(y)
     substarct = float(x) - float(y)
-    if operation == "+":
+    if operation == "Sum":
         print("Sum :",sum)
-    elif operation == "*":
+    elif operation == "Multiply":
         print("Product :",multiply)
-    elif operation == "-":
+    elif operation == "Substract":
         print("Difference :",substarct)
-    elif operation == "/":
+    elif operation == "Divide":
         print("Quotient :",divide)
 
 Calculater()
