@@ -1,19 +1,21 @@
-def Calculater():
-    operation = input("Enter Arthmetic Operation name: ")
-    x = input("Enter First Number ")
-    y = input('Enter Second Number ')
+print("This a simple calculator program.")
 
-    sum = float(x) + float(y)   
-    multiply = float(x) * float(y)
-    divide = float(x) / float(y)
-    substarct = float(x) - float(y)
-    if operation == "Sum":
-        print("Sum :",sum)
-    elif operation == "Multiply":
-        print("Product :",multiply)
-    elif operation == "Substract":
-        print("Difference :",substarct)
-    elif operation == "Divide":
-        print("Quotient :",divide)
+def calculater():
+    print("Enter the values :")
+    x = float(input())
+    y = float(input())
+    print("Choose arithmatic operation.")
+    print("1. Sum, 2. Multiply, 3. Substract, 4. Divide")
+    z = int(input())
+    print("the result is: ")
+    
+    if z == 1:
+        print(x+y)
+    elif z == 2:
+        print(x*y)
+    elif z == 3:
+        print(x-y)
+    elif z == 4:
+        print(x/y)
 
-Calculater()
+calculater()
